@@ -11,6 +11,6 @@ build:
 	dep ensure && go build
 
 test:
-	test -v ./...
+	go test -v ./...
 
 
